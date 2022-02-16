@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            text-transform: uppercase;
+        }
+        p{
+            color: salmon;
+        }
+        p:hover{
+            color: aqua;
+        }
+        div p:nth-child(1){
+            color: rgb(89, 89, 149);
+        }
+        
+        p::before{
+            content: "x"
+        }
+        p::after{
+            content: "☔";
+        }
+        ::placeholder{
+            color: rebeccapurple;
+        }
+        #ACTIVAR-1{
+            width: 100px;
+            height: 20px;
+            background-color: tan;
+        }
+        #div-style-1{
+            margin-bottom: 10px;
+        }
+
+        div button:active{
+            color: rgb(182, 80, 134);
+        }
+        #ACTIVAR-1:visited{
+            background-color: rgb(80, 173, 182);
+        }
+        #ACTIVAR-1:hover{
+            background-color: rgb(181, 185, 185);
+        }
+        body button:hover{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <p>HOLA</p>
+     <div>
+         <p>EsculaJavascript</p>
+         <p>CLASE 2</p>
+     </div>
+     <h4>PONGA SU NOMBRE</h4>
+     <div id="div-style-1">
+         <input type="text" placeholder="escriba su nombre">
+     </div>
+     <div>   
+        <button  name="ACTIVAR" id="ACTIVAR-1" >BOTON 1</button>
+     </div>
+
+     <button name="ACTIVAR" id="ACTIVAR-1">BOTON 2</button>
+
+</body>
+</html>
