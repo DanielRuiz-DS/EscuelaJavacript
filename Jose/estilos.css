@@ -1,0 +1,42 @@
+#fondo{
+    background-color: blanchedalmond;
+    margin: 10px;
+}
+#cabeza{
+    text-align: center;
+}
+#nombre{
+    background-color: blue;
+    border-radius: 500px;
+    display: inline-block;
+    
+}
+#nav{
+    text-align: left;
+    display: inline-block;
+}
+#main{
+    width: 50%;
+}
+#article-1{
+    background-color: rgb(255, 208, 196);
+    text-align: justify;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#bio{
+    text-align: center;
+    font-size: 50px;
+}
+#article-2{
+    background-color: rgb(196, 202, 255);
+    text-align: justify;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#section-1{
+    float: right;
+    width: 50%;
+    display: block;
+    
+}
