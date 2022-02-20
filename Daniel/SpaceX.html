@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/f029c01ca6.js" crossorigin="anonymous"></script>
+    <style>
+      .back{
+        width: 350px;
+        height: 500px;
+        background-image: url(https://d3lcr32v2pp4l1.cloudfront.net/Pictures/2000xAny/7/4/8/73748_falcon9rocketslandingcspacex_86466.jpg);
+        margin: 0 auto;
+        background-size: cover;
+        position: relative;
+        border-radius: 10px;
+      }
+      .main{
+        width: 250px;
+        height: 400px;
+        margin-top: 50px;
+        margin-left: 50px;
+        position: absolute;
+        border-radius: 10px;
+        background-color: rgb(0, 0, 0);
+      }
+      #img1{
+        width: 250px;
+        position: absolute;
+        height: 180px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+      }
+      #img2{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        border: 2px solid white;
+        border-radius: 50%;
+        margin-top: 150px;
+        margin-left: 100px;
+      }
+      .text{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        margin-top: 190px;
+        margin-left: 25px;
+
+      }
+      .iconos1{
+        width: 200px;
+        height: 30px;
+        display: flex;
+      }
+      .ubicacion{
+          margin-right: 50px;
+      }
+      #img3{
+          width: 10px;
+          height: 9px;
+      }
+      #img4{
+          width: 10px;
+          height: 9px;
+          margin-left: 10px;
+      }
+      .social-networks{
+          margin-top: 25px;
+          display: flex;
+          justify-content: center;
+          width: 100%;
+      }
+      div > img{
+          width: 30px;
+          height: 30px;
+      }
+      .button{
+        margin: 0 5px;
+      }
+      
+      i{
+          color: white;
+      }
+
+    </style>
+</head>
+<body >
+    <div class="back">
+        <div class="main">
+            <section >
+                <img id="img1" src="https://cdn.mos.cms.futurecdn.net/8oBJxTP5LKFTprhg9HAC77.jpg" alt="">
+            </section>
+            <section>
+                <img id="img2" src="https://tecnoempresa.mx/wp-content/uploads/2020/12/spacex.jpg" alt="">
+                <div class="text">
+                    <h2 style="color: aliceblue; text-align:center; font-family: monospace">SpaceX</h2>
+                    <p style="color: aliceblue;  font-family: monospace; font-size: small;" >SpaceX designs, manufactures and launches advanced rockets and spacecraft.</p>
+                    <div class="iconos1">
+                        <div class="ubicacion">
+                            <i class='fa-solid fa-location-dot' style='color: white; font-size: 8px;'> Hawthorne, CA </i>
+                        </div>
+                        <div class="link">
+                            <i class='fa-solid fa-link' style='color: white; font-size: 8px;'> <a href="http://www.spacex.com/" style="color: white;"> SpaceX.com</a></i>
+                        </div>
+                    </div>
+                    <div class="social-networks">
+                        <a href="https://twitter.com/SpaceX?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                            <div class="button">
+                                <img src="data:image/png;base64,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" alt="Twitter">
+                            </div>
+                        </a>
+                        <a href="https://www.facebook.com/spacenewsx/">
+                            <div class="button">
+                                <img  src="https://edosoft.es/wp-content/uploads/2020/05/logo-facebook-blanco.png" alt="Facebook">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/spacex/?hl=en">
+                            <div class="button">
+                                <img src="https://i.pinimg.com/564x/1a/db/0e/1adb0e1f5d3800942accbca2422be08e.jpg" alt="Instagram">
+                            </div>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCtI0Hodo5o5dUb67FeUjDeA">
+                            <div class="button youtube">
+                                <img src="https://icon-library.com/images/youtube-icon-white/youtube-icon-white-12.jpg" alt="Youtube">
+                            </div>
+                        </a>
+                    </div>
+                </div>    
+            </section>
+        </div>
+    </div>
+</body>
