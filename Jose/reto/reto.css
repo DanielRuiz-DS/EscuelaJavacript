@@ -1,0 +1,82 @@
+.fondo-1{
+    position: absolute;
+    right: 10;
+    top: 10;
+    left: 10;
+    bottom: 10;
+    z-index: 1;
+}
+.fondo-2{
+    position: absolute;
+    z-index: 2;
+    right: 1200px;
+    top: 50px;
+}
+.fondo-3{
+    position: relative;
+    z-index: 3;
+    right: -44px;
+    top: 40px;
+}
+.fondo-4{
+    position: relative;
+    z-index: 4;
+    right: -138px;
+    top: 10px;
+}
+.main{
+    position: relative;
+    z-index: 5;
+    right: -138px;
+    font-size: 9px;
+    top: 1px;
+    
+}
+.h{
+    color: black;
+}
+.p{
+    color: black;
+    
+}
+.div{
+    text-align: justify;
+    position: relative;
+    z-index: 6;
+    right: -80px;
+    width: 200px; 
+    font-size: 12px;
+    top: 20px;
+}
+.social{
+    /*las imágenes usadas tienen width de 48px*/
+    width:300px;
+    position:fixed;
+    top:370px;
+    right:1090px;
+    z-index: 7;    
+}
+.ubicacion{
+    position: relative;
+    z-index: 8;
+    right: -70px;
+    top: 15px;
+}
+.texto{
+    position: relative;
+    z-index: 9;
+    top: -30px;
+    right: -90px;
+}
+.ultima{
+    position: relative;
+    z-index: 10;
+    top: -70px;
+    right: -200px;
+}
+.tex{
+    position: relative;
+    z-index: 10;
+    top: -115px;
+    right: -225px;
+}
